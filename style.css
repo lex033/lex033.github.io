@@ -1,0 +1,40 @@
+body {
+    margin: 50px;
+}
+
+header {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+header > nav {
+    margin-right: 1rem;
+    background-color: teal;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+}
+
+nav li {
+    margin: 0.5em;
+}
+
+footer {
+    border: none;
+    background-color: teal;
+    max-width: 900px;
+}
+
+.contactInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    max-width: 100px;
+}
